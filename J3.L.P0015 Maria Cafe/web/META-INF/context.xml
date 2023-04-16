@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/J3.L.P0015 Maria Cafe">
+  <Environment name="connUrl" type="java.lang.String" value="jdbc:sqlserver://localhost:1433;databaseName=MariaCafe"/>
+  <Environment name="sqlClass" type="java.lang.String" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+  <Environment name="dbUser" type="java.lang.String" value="sa"/>
+  <Environment name="dbPass" type="java.lang.String" value="123456"/>
+  <Environment name="imgPath" type="java.lang.String" value="images"/>
+  <Environment name="pageSize" type="java.lang.Integer" value="3"/>
+</Context>

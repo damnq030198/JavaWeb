@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/J3.L.P0033-Church">
+  <Environment name="envi" type="java.lang.String" value=""/>
+  <Environment name="img" type="java.lang.String" value="img/"/>
+  <Environment name="DBName" type="java.lang.String" value="J3LP0033-Church"/>
+  <Environment name="server" type="java.lang.String" value="localhost"/>
+  <Environment name="port" type="java.lang.String" value="1433"/>
+  <Environment name="book" type="java.lang.String" value="img/book.png"/>
+</Context>

@@ -1,0 +1,175 @@
+
+body {
+    background-color: #7166AD;
+    margin-top: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    font-family: serif;
+    font-size: 17px;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -2px;
+
+}
+.body-content {
+    display: flex;
+    width: 100%;
+}
+.body-left{
+    width: 80%;
+    background-color: #D9E0FF;
+    padding: 20px 15px;
+}
+.body-right {
+    width: 20%;
+    background-color: #D9E0FF;
+
+}
+#large {
+    border-radius: 20px;
+    width: 100%;
+}
+.content-div {
+    margin-left: 30px;
+}
+.img{
+    display: flex;
+}
+.welcome{
+    margin-top: 30px;
+    border-top: 4px dotted #CCCCCC;
+    border-bottom: 4px dotted #CCCCCC;
+}
+
+.share {
+    padding-top:20px;
+    padding-right: 15px;
+}
+.box {
+    background-color: #E4E9FF;
+    height: 105px;
+    border-radius: 10px;
+    box-shadow: 0 0 13px 2px #848484;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.box-below {
+    margin-top: 60px;
+}
+.try-button{
+    width: 100%;
+    border-radius:20px;
+    color: #FFFFFF;
+    background-color: #CB3165;
+    padding: 5px;
+    font-size: 15px;
+}
+.try-box {
+    margin: 0px;
+}
+.shareLink {
+    color: black;
+    font-size: 15px;
+}
+.header-share{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.typechurch {
+    background-color: white;
+    margin-top: 20px;
+
+    padding: 30px 0 40px 0;
+}
+.type-church-header {
+}
+.type-church-content {
+}
+.typechurch {
+    width: 49%;
+}
+.typechurch-left {
+    margin-left: 16px;
+}
+
+.type-church-img {
+
+}
+#type-img{
+    border-radius: 20px;
+    width: 100%
+}
+#type-img-detail {
+    border-radius: 20px;
+    float: right;
+    margin: 0 0 10px 10px;
+}
+.type-church-detail{
+    background-color: white;
+}
+.inner-wrapper {
+    max-width: 1000px;
+    min-width: 1100px;
+    box-shadow: 0 0 2px 2px #4D5337;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px
+}
+.menu-type-header{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-family: serif;
+
+}
+.page-title-h1{
+    font-size: 24px;
+    margin-top: -5px;
+    font-family: serif;
+    font-weight: bold;
+}
+.visit{
+    border-bottom: 4px dotted #CCCCCC;
+}
+.visit-p{
+    font-family: sans-serif;
+}
+.title-h1 {
+    font-size: 24px;
+    font-family: serif;
+    font-weight: bold;
+
+}
+.content{
+    font-family: sans-serif;
+}
+.menu-list {
+    border-bottom: 4px dotted #CCCCCC;
+}
+.sign {
+    display: flex;
+    padding-top: 40px;
+}
+.img-sign {
+    width: 30%;
+}
+#sign-id {
+    width: 100%;
+    border-radius: 20px;
+}
+.low {
+    align-self: flex-end;
+    margin-left: 15px;
+}
+.signal {
+    font-size: 30px;
+}

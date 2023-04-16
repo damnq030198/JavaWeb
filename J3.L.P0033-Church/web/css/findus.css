@@ -1,0 +1,13 @@
+.findus-content{
+    display: flex
+}
+
+.findus-content-col {
+    width: 50%;
+}
+.contact-table{
+    margin-top: 30px;
+}
+.findus-title {
+    padding-top: 20px;
+}

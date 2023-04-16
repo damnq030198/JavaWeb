@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	 version="3.1">
+    <servlet>
+        <servlet-name>Home</servlet-name>
+        <jsp-file>/index.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>EntryDetail</servlet-name>
+        <jsp-file>/entrydetail.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>AboutMyCake</servlet-name>
+        <jsp-file>/aboutmycake.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>AboutMe</servlet-name>
+        <jsp-file>/aboutme.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Home</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EntryDetail</servlet-name>
+        <url-pattern>/detail</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AboutMyCake</servlet-name>
+        <url-pattern>/aboutmycake</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AboutMe</servlet-name>
+        <url-pattern>/aboutme</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error.jsp</location>
+    </error-page>    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

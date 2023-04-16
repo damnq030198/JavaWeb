@@ -1,0 +1,132 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 17, 2018, 1:37:53 PM
+    Author     : vuhkse05427
+*/
+
+.top-2 {
+    
+    margin-top: 30px;
+    flex-basis: 100%;
+    display: flex;
+    border-bottom: 3px dotted #CCCCCC;
+}
+
+.top-2 a {
+    text-decoration: none;
+    color : black;
+}
+
+
+.lastest {
+    flex-basis: 50%;
+}
+
+.p0 {
+    padding-right: 4px;
+}
+
+.p1 {
+    padding-left: 4px;
+}
+
+.lastest>.image {
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.entry {
+    flex-basis: 100%;
+    border-bottom: 3px dotted #CCCCCC;
+    display: flex;
+    flex-wrap: wrap;
+}
+.overview{
+    flex-basis: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo{
+    flex-basis: 10%;
+    margin: auto;
+    margin-top: 0px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+.item{
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.item>a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: serif;
+}
+
+.item>span{
+    float: right;
+    font-style: italic;
+}
+.content-item {
+    display: inline-block;
+}
+.content-item>img{
+    float: right;
+    max-height: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.overview>a{
+    text-align: center;
+    color: black;
+    flex-basis: 100%;
+}
+
+.intro {
+    display: flex;
+    border-bottom: 3px dotted #CCCCCC;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+h3 {
+    font-family: serif;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
+.intro-image {
+    flex-basis: 20%;
+}
+.intro-image>img{
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.intro>.content-part {
+    line-height: 20px;
+    padding-left: 10px;
+    flex-basis: 80%;
+}
+
+.intro>.content-full {
+
+    margin-top:20px;
+    line-height: 30px;
+    flex-basis: 100%;
+}

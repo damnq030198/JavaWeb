@@ -1,0 +1,251 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+body{
+    font-size: 16px;
+    background-color: #ededed;
+    background-size: cover;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    position: relative;
+    margin: 0;
+}
+.site-wrapper{
+    background-color: #fff;
+    max-width: 980px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    border-top: none;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    box-shadow: 0 0 24px rgba(0,0,0,.8);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+.header-wrapper{
+    background-position: center top;
+    margin-top: 0;
+    background-color: #f68c1f;
+    color: white;
+}
+.container{
+    padding: 0 20px;
+    height: 100%;
+}
+.title-wrapper{
+    padding: 30px 0;
+    font-family: 'Times New Roman',Helvetica,Arial,sans-serif;
+}
+.title{
+    font-size: 47px;
+
+}
+.subtitle{
+    font-size: 22px;
+}
+.navbar{
+    height: 35px;
+    background-color: maroon;
+    margin: 0 -20px;
+}
+.navbar .container{
+    padding: 0;
+}
+.nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.nav li{
+    float: left;
+    line-height: 22px;
+}
+.nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 35px;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+}
+.nav li a:hover{
+    text-decoration: underline;
+}
+#nav-active{
+    font-weight: bold;
+}
+
+/*Content*/
+.content-wrapper{
+    display: flex;
+}
+.content-wrapper .container{
+    width: 100%;
+}
+.content-left{
+    float: left;
+    width: 700px;
+    margin-bottom: 22px;
+}
+.content-right{
+    float: left;
+    width: 220px;
+    margin-left: 20px;
+}
+.section{
+    margin-top: 15px;
+    border-bottom: 3px dotted lightgrey;
+    font-size: 17px;
+    line-height: 22px;
+}
+.section .error{
+    font-size: 22px;
+    color: red;
+}
+.section:last-child{
+    border-bottom: none;
+}
+
+.section .content{
+    padding: 22px 0;
+    display: inline-block;
+    width: 100%;
+}
+.intro .content .img{
+    width: 164px;
+    height: auto;
+    margin: 3px 20px 8px 0;
+    float: left;
+}
+.heading{
+    font-family: 'Times New Roman',Helvetica,Arial,sans-serif;
+    line-height: 32.8px;
+    padding-top: 25px;
+    font-size: 28px;
+}
+.cake .cake-img{
+    float: right;
+    width: 48%;
+}
+.content img{
+    width: 100%;    
+    border-radius: 12px;
+}
+.content .span{
+    width: 23%;
+    float: left; 
+}
+.item a{
+    text-decoration: underline;
+    color: black;
+}
+.content ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.content li{
+    float: left;
+    width: 48.9%;
+    margin-left: 2.1%;
+}
+.content li:first-child{
+    margin-left: 0;
+}
+.product-title{
+    font-size: 22px;
+    font-family: 'Times New Roman',Helvetica,Arial,sans-serif;
+    margin-bottom: 10px;
+}
+.product a{
+    color: black;
+    text-decoration: none;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 11px;
+    display: block;
+}
+.content-title{
+    font-family: georgia, palatino;
+    font-size: 24px;
+}
+.intro .signature{
+    font-family: 'Dancing Script',serif;
+    font-size: 40px;
+    line-height: 60px;
+
+}
+
+/*Content right*/
+.content-right .share-box{
+    margin-top: 37px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+.share-header{
+    padding: 11px 15px;
+    font-size: 22px;
+    font-family: 'Times New Roman',Helvetica,Arial,sans-serif;
+}
+.share-content{
+    padding: 5px 15px 11px 15px;
+    line-height: 22px;
+}
+.share-content a{
+    color: black;
+}
+/*Footer*/
+.footer-wrapper{
+    display: flex;
+    height: auto;
+}
+.footer-wrapper .container{
+    margin: 0px 20px;
+    border-top: 1px lightgrey solid;
+    width: 100%;
+    padding: 27px 0 10px 0 ;
+}
+.footer-wrapper .footer-info{
+    float: left;
+    margin-bottom: 30px;
+    font-size: 13.6px;
+}
+.footer-info a{
+    color: black;
+}
+.footer-wrapper .footer-counter{
+    float: right;
+}
+.counter-item{
+    border: solid 0 #000;
+    background: #fff;
+    font-size: 14.4px;
+    font-family: Arial,Helvetica,Arial,sans-serif;
+    line-height: 14.4px;
+    padding: 2px 2px 1px;
+    margin: 3px 2px 0 0;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px #595959;
+    float: left;
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    width: 10px;
+    position: relative;
+}
+.counter-item::before{
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 52%;
+    left: 0;
+    margin-top: -1px;
+    background: rgba(0,0,0,.25);
+    width: 100%;
+}

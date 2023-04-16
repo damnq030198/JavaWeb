@@ -1,0 +1,41 @@
+.menu-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.menu-table th, .menu-table td {
+    border-top: 1px solid #CCCCCC;
+}
+.menu-table td {
+    padding: 10px;
+}
+.menu-text-aglin {
+    text-align: right;
+}
+.menu-item{
+    padding-bottom: 20px;
+    border-bottom: 4px dotted #CCCCCC;
+    margin-bottom: 40px;
+}
+.menu-item-last {
+   
+}
+.paging_label {
+    margin: 5px;
+}
+.paging_link{
+    margin: 5px;
+}
+.prayer-list {
+    border-top: 4px dotted #CCCCCC;
+    padding-top: 21px;
+}
+.service-table td{
+    min-width: 217px;
+}
+.service-date {
+    font-style: italic;
+}
+.service-list {
+    border-bottom: 4px dotted #CCCCCC;
+}

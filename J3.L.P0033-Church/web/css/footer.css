@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footer-wrapper{
+    height: 90px;
+    background-color: #D9E0FF;
+    width: 100%;
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px; 
+}
+.footer-content{
+    background-color: #D9E0FF;
+    width: 97%;
+    height: 80%;
+    margin: auto;
+    border-top: 2px solid #CCCCCC;
+
+}
+.footer-data-low{
+    margin: 0;
+    text-decoration: underline;
+}
+.footer-data-high {
+    padding-top: 23px;
+    margin: 0;
+}

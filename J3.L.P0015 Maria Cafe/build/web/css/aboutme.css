@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 17, 2018, 1:37:41 PM
+    Author     : vuhkse05427
+*/
+
+.aboutme{
+    border-bottom: 3px dotted #CCCCCC;
+    margin-bottom: 15px;
+}
+
+.contact {
+    flex-basis: 50%;
+}
+.contact>h3 {
+    font-family: serif;
+}
+.map {
+    padding-top: 20px;
+    margin-top:20px;
+    border-top: 3px dotted #CCCCCC;
+    flex-basis: 100%;
+}
+.main {
+    flex-basis: 75%;
+    margin-bottom: 15px;
+}
+
+.map>img {
+    width: 100%;
+}
